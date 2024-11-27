@@ -1,0 +1,151 @@
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+ul{
+ display: inline-flex;
+ font-size: 30px;
+}
+li{
+ list-style: none;
+ padding: 5px;
+}
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+main{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-items: center;
+ justify-items:  center;
+ padding: 50px; 
+}
+.boxcomprar{
+ background-color: #ffffff;
+ width: 300px;
+ border: #000000 solid 10px;
+ text-align: center;
+ height: 500px;
+ display: grid;
+ align-items: center;
+ justify-items:  center;
+ 
+ 
+}
+
+button{
+ background-color: #000000;
+ border-radius: 10px;
+ width: 100px;
+ height: 40px;
+ color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilo del menú */
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+ul#ulmenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul#ulmenu li {
+    margin-right: 20px;
+}
+
+ul#ulmenu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+ul#ulmenu li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Estilo para la tabla del carrito */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td img {
+    max-width: 50px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff7044;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilos de las alertas */
+.alerta {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
